@@ -17,6 +17,9 @@ import numpy
 import subprocess
 import re
 
+
+
+
 if os.access('b2mn.exe.dir/b2tallies.nc', os.R_OK):
     f = netCDF4.Dataset('b2mn.exe.dir/b2tallies.nc','r')
 else:
